@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="container">
+                <h2>My Projects</h2>
+
+                <div class="project-item">
+                    <img src="../Assets/CalendishSnip.png" alt="Calendish Screenshot" class="project-img">
+                    <div class="project-details">
+                        <h3>Calendish: Meal Creator</h3>
+                        <a href="https://github.com/aleburrascano/Calendish" target="_blank" class="project-btn">Visit
+                            Project</a>
+
+                        <p>
+                            Calendish is a mobile app that helps users plan their meals and generate recipe ideas using
+                            AI.
+                            Built with Kotlin and Jetpack Compose in Android Studio, it offers a clean interface for
+                            creating,
+                            viewing, and organizing meals. Python is used for the AI features that help simplify meal
+                            planning
+                            and make healthy choices easier. This app was created for my App Developement at John Abbott
+                            College.
+                        </p>
+
+                        <div class="project-tech">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+                                alt="Kotlin" title="Kotlin" width="40">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
+                                alt="Android Studio" title="Android Studio" width="40">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python" title="Python" width="40">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="../Assets/RetiremintSnip.png" alt="RetireMint Screenshot" class="project-img">
+                    <div class="project-details">
+                        <h3>RetireMint Condition</h3>
+                        <a href="https://github.com/FarLostBrand/JacHacks2025" target="_blank" class="project-btn">Visit
+                            Project</a>
+
+                        <p>
+                            RetireMint Condition makes retirement planning simple and accessible. Users can enter a few
+                            key details
+                            into a form to instantly generate a personalized retirement plan. The app also includes an
+                            AI-powered
+                            chatbot that helps answer questions, refine goals, and provide guidance — all without
+                            needing a financial advisor. This was made for JackHacks 2025.
+                        </p>
+
+                        <div class="project-tech">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt="React" title="React" width="40">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                alt="TypeScript" title="TypeScript" width="40">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML" title="HTML" width="40">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS" title="CSS" width="40">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="../Assets/67zipSnip.png" alt="67Zip Screenshot" class="project-img">
+                    <div class="project-details">
+                        <h3>67Zip Trojan Ransomware</h3>
+                        <a href="https://github.com/muhammadbalawal/Security_Project" target="_blank"
+                            class="project-btn">Visit Project</a>
+
+                        <p>
+                            67Zip is a Windows file compression tool with built-in context menu integration for zipping
+                            and unzipping
+                            files. While it functions like a standard compression utility, it also secretly operates as
+                            a ransomware
+                            trojan. Whenever a user compresses or extracts a file, the malware encrypts their documents
+                            in the background.
+                            This project was created for a cybersecurity class to demonstrate how seemingly harmless
+                            applications can be
+                            weaponized.
+                        </p>
+
+                        <div class="project-tech">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python" title="Python" width="40">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML" title="HTML" width="40">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Luca Bousette. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Load navbar
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
