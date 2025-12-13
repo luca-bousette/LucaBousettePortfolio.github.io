@@ -1,4 +1,4 @@
-# Portfolio Website
+# Luca Bousette's Portfolio Site
 
 A personal portfolio website created to showcase my projects, technical skills, and professional experience. This site serves as a central hub for potential employers and collaborators to learn about my work and get in touch.
 
